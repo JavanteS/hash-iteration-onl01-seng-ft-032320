@@ -11,9 +11,9 @@ end
 
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.map do |kid, age| if age < 12
-    "Happy birthday #{kid}! You are now #{age} years old!"
+    puts"Happy birthday #{kid}! You are now #{age} years old!"
     elsif age > 12
-    "You are too old for this."
+    puts "You are too old for this."
    end
   end
  end
